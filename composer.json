@@ -9,5 +9,10 @@
             "email": "laubertin1967@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "wcs\\": "src/"
+        }
+    }
 }
